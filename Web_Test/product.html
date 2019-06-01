@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>MLB_Products</title>
+  <meta charset="utf-8">
+
+  <style>
+
+    /*.container{
+      min-width: 550px;
+    }
+    */
+
+    *{
+      box-sizing: border-box;
+    }
+    .container{
+      border:5px solid black;
+    }
+    .container>*{
+      border:5px solid red;
+    }
+    .container>.content>*{
+      border:5px solid green;
+    }
+    .container .content{
+      padding-left:200px;
+      padding-right:100px;
+      overflow:hidden;
+    }
+    .container .content>*{
+      float:left;
+      padding-bottom: 2500px;
+      margin-bottom: -2500px;
+    }
+    .container .content main{
+      width:100%;
+    }
+    .container .content nav{
+      width:200px;
+      margin-left: -100%;
+      left:-200px;
+      position: relative;
+    }
+    .container .content aside{
+      width:100px;
+      margin-right:-100px;
+    }
+    .container footer{
+      clear:both;
+    }
+
+    @media (max-width:549px){
+      .container .content{
+        padding-left:0;
+        padding-right:0;
+        overflow:visible;
+      }
+      .container .content>*{
+        float:none;
+        padding-bottom:0;
+        margin-bottom: 0;
+      }
+      .container .content main{
+        width:100%;
+      }
+      .container .content nav{
+        width:auto;
+        margin-left:0;
+        left:0;
+        position: relative;
+      }
+      .container .content aside{
+        width:auto;
+        margin-right:0;
+      }
+    }
+
+    #columns{
+      column-width:350px;
+      column-gap:10px;
+
+    }
+    #columns figure{
+      display:inline-block;
+      border:1px solid rgba(0,0,0,0.2);
+      margin:0;
+      margin-bottom: 15px;
+      padding:10px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+
+    }
+    #columns figure img{
+      width:100%;
+    }
+    #columns figure figcaption{
+      border-top:1px solid rgba(0,0,0,0.2);
+      padding:10px;
+      margin-top:11px;
+    }
+    .btn{
+      font-size:1rem;
+      display:inline-block;
+      transition:all 0.1s;
+    }
+    .btn:active{
+      transform: translateY(3px);
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>MLB</h1>
+    </header>
+
+    <img src="https://static.mlb-korea.com/images/display/category/MBM/A02/contents/10127_1049_4_KOR_20190411163918.png/dims/resize/1920x850" width=100%>
+
+    <section class="content">
+      <main>
+        <h1 align="center">ITEMS</h1>
+        <div id="columns">
+          <a class="btn" href="https://www.mlb-korea.com/goods/%EB%89%B4%EC%9A%95-%EC%96%91%ED%82%A4%EC%8A%A4/%ED%8B%B0%EC%85%94%EC%B8%A0/31TS21931-50N">
+         <figure>
+            <img src="https://static.mlb-korea.com/images/goods/thnail/m/20190404/31TS21931-50N-6154523179893532.png/dims/resize/634x634">
+            <figcaption>뉴욕양키스 베이직 반팔티셔츠 / 49,000원</figcaption>
+          </figure>
+          </a>
+
+          <figure>
+            <a class="btn" href="https://www.mlb-korea.com/goods/%EA%B3%B5%EC%9A%A9/%EC%9A%B4%EB%8F%99%EB%AA%A8/32CP77911-50P"><img src="https://static.mlb-korea.com/images/goods/thnail/m/20190516/32CP77931-50P-9767843478491861.png/dims/resize/634x634">
+              </a>
+            <figcaption>뉴욕양키스 루키 볼캡 /33,000원</figcaption>
+          </figure>
+
+          <figure>
+            <img src="https://static.mlb-korea.com/images/goods/thnail/m/20190522/31TSTI931-50U-10300002338396152.png/dims/resize/634x634">
+            <figcaption>뉴욕양키스 쿠퍼스 쉐도우 반팔 티셔츠 </figcaption>
+          </figure>
+
+          <figure>
+            <a class="btn" href="https://www.mlb-korea.com/goods/LA-%EB%8B%A4%EC%A0%80%EC%8A%A4/%EC%8A%A4%EC%9C%94%EC%9B%A8%EC%96%B4/31SWC1931-07Y"><img src="https://static.mlb-korea.com/images/goods/thnail/m/20190522/31SWC1931-07Y-10300848430043063.png/dims/resize/634x634">
+              </a>
+            <figcaption>LA다저스 어센틱 소매 배색 긴팔 래쉬가드 </figcaption>
+          </figure>
+
+          <figure>
+            <img src="https://static.mlb-korea.com/images/goods/thnail/m/20190222/31JPT4911-07D-2633790826229546.png/dims/resize/634x634">
+            <figcaption>LA다저스 바크(BARK) 몬스터 자켓 </figcaption>
+          </figure>
+
+          <figure>
+            <img src="https://static.mlb-korea.com/images/goods/detail/m/20190222/31JPC1911-50P-2629894129609024.jpg/dims/resize/634x634">
+            <figcaption>몬스터 자켓 </figcaption>
+          </figure>
+
+          <figure>
+            <a class="btn" href="https://www.mlb-korea.com/goods/%EB%89%B4%EC%9A%95-%EC%96%91%ED%82%A4%EC%8A%A4/%ED%9B%84%EB%93%9C(%ED%9B%84%EB%93%9C%ED%8B%B0%EC%85%94%EC%B8%A0)/31HDT1911-50R"><img src="https://static.mlb-korea.com/images/goods/detail/m/20190223/31HDT1911-50R-2693963069325260.jpg/dims/resize/634x634">
+              </a>
+            <figcaption>뉴욕양키스 럭키피그 후드티셔츠 </figcaption>
+          </figure>
+
+          <figure>
+            <img src="https://static.mlb-korea.com/images/goods/thnail/m/20190223/32CP85911-50L-2701414769918121.png/dims/resize/634x634">
+            <figcaption>뉴욕양키스 다이아몬드 커브조절캡 </figcaption>
+          </figure>
+        </div>
+      </main>
+      <nav>
+        NAV(LEFT)
+      </nav>
+      <aside>
+      </aside>
+    </section>
+
+    <div id="disqus_thread"></div>
+      <script>
+
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://disqus-govxulqypf.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+    <footer>
+      "copyright:Jean Lee"
+    </footer>
+  </div>
+</body>
+</html>
